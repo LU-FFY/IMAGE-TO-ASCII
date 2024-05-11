@@ -38,10 +38,6 @@ Make sure to replace `mona_lisa.jpg` with the path to your desired image file, a
 
 Contributions are welcome! If you have any suggestions or improvements, feel free to open an issue or create a pull request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 
 
 
