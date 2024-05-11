@@ -9,16 +9,21 @@ This is a Python script that converts images into ASCII art. It resizes the imag
 2. Install the required Python libraries:
    ```bash
    pip install Pillow
+   ```
+   if using python3
+   ```bash
+   pip3 install pillow
+   ```
 
-3. Clone the repository:
+4. Clone the repository:
    ```bash
    git clone https://github.com/LU-FFY/IMAGE-TO-ASCII.git
 
-4. Navigate to the project directory:
+5. Navigate to the project directory:
    ```bash
    cd image to ASCII
 
-5. Run the script:
+6. Run the script:
    ```bash
    python image_to_ASCII.py
 
