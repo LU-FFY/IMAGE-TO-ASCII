@@ -1,45 +1,50 @@
-# ASCII Art Converter
+# 🖼️ ASCII Art Converter
 
-This is a Python script that converts images into ASCII art. It resizes the image and maps each pixel's brightness to a character in the ASCII set, then writes the resulting ASCII art to a text file.
+This is a Python command-line tool that converts images into ASCII art. It resizes the image, maps each pixel's brightness to a character from a defined ASCII set, and outputs the result to a text file.
 
-## How to Use
+---
 
-1. Install Python if you haven't already: [Python Installation Guide](https://www.python.org/downloads/)
+## 🚀 Features
 
-2. Install the required Python libraries:
-   ```bash
-   pip install Pillow
-   ```
-   if using python3
-   ```bash
-   pip3 install pillow
-   ```
+- Grayscale-to-ASCII mapping
+- Adjustable scaling factor
+- Custom ASCII character sets
+- Outputs art to a `.txt` file
+- Works with JPEG, PNG, and other common formats
 
-4. Clone the repository:
+---
+
+## 📦 Requirements
+
+- Python 3.x
+- Pillow (`pip install Pillow`)
+
+---
+
+## 🔧 Installation & Usage
+
+1. **Clone the repository**
    ```bash
    git clone https://github.com/LU-FFY/IMAGE-TO-ASCII.git
-
-5. Navigate to the project directory:
+   cd IMAGE-TO-ASCII
+2. **Install dependencies
    ```bash
-   cd image to ASCII
-
-6. Run the script:
+   pip install Pillow
+   or (if using Python 3 explicitly):
    ```bash
-   python image_to_ASCII.py
+   pip3 install Pillow
+3.	**Run the script via CLI
+   ```bash
+   python ascii_converter.py mona_lisa.jpg -s 3 -o mona_output.txt
+4. **Customization:
+      You can tweak:
+      	•	scale → How much the image is downscaled (lower = more detail)
+      	•	charset → Change brightness-to-symbol mapping for your preferred look
+      
+      Example with a custom character set:
+      ```bash
+      python ascii_converter.py mona_lisa.jpg -s 2 -c "@#%=+-. "
+5. **Contributing
 
-Make sure to replace `mona_lisa.jpg` with the path to your desired image file, and adjust the output file path and scale factor as needed.
-
-## Dependencies
-
-- Python 3
-- Pillow (Python Imaging Library)
-
-## Contributing
-
-Contributions are welcome! If you have any suggestions or improvements, feel free to open an issue or create a pull request.
-
-
-
-
-
-
+Pull requests are welcome!
+Feel free to fork the repo, create a branch, and submit improvements.
